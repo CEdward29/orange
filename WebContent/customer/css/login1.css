@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+.page-account {
+	background:#fff
+}
+
+.header {
+	width:860px;
+	padding:25px 0;
+	margin:0 auto 25px
+}
+
+.header-hd .logo {
+	float:left
+}
+
+.banner {
+	float:left;
+	width:480px
+}
+
+.panel {
+	float:right;
+	margin:0 0 0 50px;
+	background:#f8f8f8;
+	border:1px solid #d5d5d5;
+	position:relative;
+	width:280px;
+	padding:25px 20px 30px;
+	font-size:14px
+}
+
+.panel-hd {
+	margin:0 0 10px;
+	line-height:1.5
+}
+
+.panel-hd .title {
+	float:left;
+	font-size:24px;
+	margin:0
+}
+
+.panel-bd .login-form {
+	display:none
+}
+
+.panel-bd .form-item {
+	position:relative;
+	margin:0 0 10px
+}
+
+.panel-bd .hide-form {
+	display:none
+}
+
+.g-error-tip:after {
+	content:"";
+	position:absolute;
+	bottom:-16px;
+	left:50%;
+	margin-left:-4px;
+	width:0;
+	height:0;
+	border-style:solid;
+	border-width:8px;
+	border-color:#df4d3f transparent transparent
+}
+
+.panel-bd .form-item .inputbox {
+	padding:9.5px 10px;
+	height:42px;
+	width:280px;
+	font-size:14px;
+	line-height:1.5
+}
+
+.panel-bd .text-disabled {
+	color:#999
+}
+.panel-bd .form-helper {
+	margin:15px 0
+}
+
+.panel-bd .form-helper .g-link {
+	float:right
+}
+.panel-bd .form-helper p {
+	margin:0
+}

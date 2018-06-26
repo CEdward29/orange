@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.clear{clear:both;}
+ .main {
+	margin: 0px 0px 30px 0px;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	color: #000000; /*#666666*/
+	text-align: center;
+	vertical-align: top;
+}
+    #s_top{
+        height:100px;
+        padding:2px 100px;
+    }
+    #s_top img{
+        float:left;
+        width:200px;
+        height:100px;
+    }
+
+    #s_mod{
+        width:600px;
+        height:40px;
+        text-align:right;
+        margin-top:20px;
+        font-size:20px;
+    }
+    #s_mod a{
+        text-decoration:none;
+        font-size:20px;
+        color:#06F;
+    }
+     #s_mod a:hover{
+        color:red;
+    }
+    #s_info{
+        border:1px solid #999;
+        height:400px;
+        width:70%;
+        margin:8px auto 15px;
+    }
+    #dm p{
+        font-size:25px;
+        float:left;
+        width:200px;
+    }
+    #dm img{
+        float:left;
+        width:200px;
+        padding:20px 20px;
+    }
+    #gg{
+        width:600px;
+        height:150px;
+        border:1px solid #999;
+        margin:50px auto 8px;
+    }
+    #gg p{
+        text-align:center;
+    }
+    #gg span{
+        margin:50px;
+    }
+    hr{
+        color:#FFA500;
+    }
+    #headdiv{
+    	height:100px;
+    	background-color:#FFA500;
+    }
+    #headone{
+    	width:400px;
+    	float:left;
+    	text-align:right;
+    	margin:30px auto 50px;
+    }
+    #headtwo{
+    	width:400px;
+    	float:left;
+    	margin:50px auto 20px;
+    	padding:10px 40px;
+    }
+    #headthree{
+    	float:left;
+    	font-size:17px;
+    	margin:50px auto 20px;
+    }
+    #headthree a{
+		display:block;
+		color:black;
+		font-size:16px;
+    }
+    #headthree a:hover,a:active,a:focus {
+		outline:0
+	}
+	.divleft{
+        width:600px;
+        height:500px;
+        border:1px solid #999;
+        margin:10px auto 10px;
+    }
+    
+    .op{
+        font-size:20px;
+        padding:10px 10px;
+        text-align:center;
+    }
+    .ophr{
+        width:1300px;
+        margin:8px auto 8px;
+    }
+    .lop{
+        font-size:18px;
+        margin:10px 10px;
+    }
+    .tb{
+        width:550px;
+        border:1px solid #999;
+        margin:20px 20px;
+    }
+    
